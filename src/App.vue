@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <h1>Tarefas</h1>
-      <ProgressBar />
-      <NewTaskInputText />
+    <ProgressBar />
+    <NewTaskInputText />
+    <TaskList />
   </div>
 </template>
 
 <script>
 import ProgressBar from "./components/ProgressBar.vue";
 import NewTaskInputText from "./components/NewTask.vue";
+import TaskList from "./components/TaskList.vue";
 export default {
   name: "app",
   components: {
     ProgressBar,
     NewTaskInputText,
+    TaskList,
   },
 };
 </script>
