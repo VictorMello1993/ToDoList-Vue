@@ -4,6 +4,22 @@
       <input type="button" class="button" value="x" />
       <span>Tarefa 1</span>
     </div>
+    <div class="taskItem">
+      <input type="button" class="button" value="x" />
+      <span>Tarefa 1</span>
+    </div>
+    <div class="taskItem">
+      <input type="button" class="button" value="x" />
+      <span>Tarefa 1</span>
+    </div>
+    <div class="taskItem">
+      <input type="button" class="button" value="x" />
+      <span>Tarefa 1</span>
+    </div>
+    <div class="taskItem">
+      <input type="button" class="button" value="x" />
+      <span>Tarefa 1</span>
+    </div>
   </div>
 </template>
 <script>
@@ -23,6 +39,8 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;  
+
+  margin: 30px;
 }
 
 .button {
@@ -36,5 +54,10 @@ export default {};
   position: absolute;
   top: 2px;
   right: 2px;
+}
+
+.container{
+  display: flex;  
+  width: 90%;
 }
 </style>
